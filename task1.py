@@ -3,7 +3,7 @@ def main():
     #Variable: first Prompt: Child's First Name:
     first = input("Child's First Name: ")
     #Variable: last Prompt: Child's Last Name:
-    last = input("Child's Last Name")
+    last = input("Child's Last Name: ")
     print(f"Camper's Name: {first} {last}")
 
     #Variable: birth Prompt: In what year was {first} {last} born:
@@ -15,7 +15,7 @@ def main():
     print(f"Camp Duration: {days} days")
 
     #Variable: p_first Prompt: Parent's First Name:
-    p_first = input(Parent's First Name: ")
+    p_first = input("Parent's First Name: ")
     #Variable: p_last Prompt: Parent's Last Name:
     p_last = input("Parent's Last Name: ")
     print(f"Parent's Name: {p_first} {p_last}")
