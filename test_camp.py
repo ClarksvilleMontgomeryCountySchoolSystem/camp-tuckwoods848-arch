@@ -69,7 +69,7 @@ def test_task1_sample2(capsys):
 # =============================================================================
 # TASK 2 TESTS: Type Conversion
 # =============================================================================
-
+birth = int(input("Birth year: "))
 def test_task2_birth_is_int():
     """birth should be converted to int"""
     if 'task2' in sys.modules:
