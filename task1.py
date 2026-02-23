@@ -18,11 +18,11 @@ def main():
     p_first = input("Parent's First Name: ")
     #Variable: p_last Prompt: Parent's Last Name:
     p_last = input("Parent's Last Name: ")
-    print(f"Parent's Name: {p_first} {p_last}")
+    print(f"Parent's Name: {p_first} {p_last} ")
 
     #Variable: phone Prompt: Parent's Phone #:
     phone = input("Parent's phone #: ")
-    print(f"Phone Number: {phone}")
+    print(f"Phone Number: {phone} ")
 
     #Variable: street Prompt: Street Address:
     street = input("street Address: ")
@@ -31,7 +31,7 @@ def main():
     #Variable: state Prompt: State Abbreviation:
     state = input("State Abbreviation: ")
     #Variable: zip Prompt: Zip Code:
-    zip = input("Zip Code: ")
+    zip_code = input("Zip Code: ")
     print(f"Address:\n{street}\n{city}, {state} {zip}")
 
 if __name__ == "__main__":
